@@ -23,7 +23,6 @@ except:
     filelist = filelist[0]
 # (1) End of (1)
 
-
 # (2) Moving the files (2)
 for element in filelist:
     box = element[0:9] + '/' + element
