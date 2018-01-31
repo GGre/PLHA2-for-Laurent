@@ -2,7 +2,7 @@
 # Here are handled files PLHA#####.* which must be
 # moved to their directory PLHA#####
 # Files and directories are at the same level
-# i.e. directory before being handled.
+# (i.e. superdirectory) before being handled.
 
 import os
 import shutil
