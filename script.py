@@ -1,11 +1,15 @@
 # Here is the script for PLHA2 for Laurent
+# Here are handled files PLHA#####.* which much be
+# moved to their directory PLHA#####
+# Files and directories are at the same level before
+# being handled.
 
 import os
 import shutil
 
-os.chdir("/home/ladmin/Téléchargements/PLHA") # Path to the superdirectory where
-                                              # files and directories to manage
-                                              # take place.
+os.chdir("/home/ladmin/Téléchargements/PLHA")
+# Path to the superdirectory where files and
+# directories to handle with take place.
 
 # (1) Making the list of files in the superdirectory (1)
 filelist = []
