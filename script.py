@@ -1,4 +1,4 @@
-# Here is the script
+# Here is the script for PLHA2 for Laurent
 
 import os
 import shutil
@@ -7,7 +7,7 @@ os.chdir("/home/ladmin/Téléchargements/PLHA") # Path to the superdirectory whe
                                               # files and directories to manage
                                               # take place.
 
-# (1) Making the list of files the superdirectory (1)
+# (1) Making the list of files in the superdirectory (1)
 filelist = []
 for (dirpath, dirnames, filenames) in os.walk(os.getcwd()):
     filelist.append(filenames)
