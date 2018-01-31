@@ -1,8 +1,9 @@
 # Here is the script for PLHA2 for Laurent
 # Here are handled files PLHA#####.* which must be
 # moved to their directory PLHA#####
-# Files and directories are at the same level
-# (i.e. superdirectory) before being handled.
+# Files PLHA#####.* and directories PLHA##### take 
+# place at the same level # (i.e. superdirectory)
+# before being handled.
 
 import os
 import shutil
