@@ -1,30 +1,27 @@
 # Here is the script
 
 import os
+import shutil
 
-chdir("/home/ladmin/Téléchargements/PLHA")    # Path to the superdirectory where files and directories to manage take place.
+os.chdir("/home/ladmin/Téléchargements/PLHA") # Path to the superdirectory where
+                                              # files and directories to manage
+                                              # take place.
 
-
-
+# (1) Making the list of files the superdirectory (1)
 filelist = []
-filelist = os.lsisfile?????????,()
+for (dirpath, dirnames, filenames) in os.walk(os.getcwd()):
+    filelist.append(filenames)
+    break
+try:
+    test = filelist[1]
+    print('An error occured : Please verify the path')
+except:
+    filelist = filelist[0]
+# (1) End of (1)
 
-for k in filelist:
-    move ??????????????????
 
-while i:
-    if i > 9999:
-        suf = str(i)
-    elif i > 999 and i < 10000:
-        suf = '0' + str(i)
-    elif i > 99 and i < 1000:
-        suf = '00' + str(i)
-    elif i > 9 and i < 100:
-        suf = '000' + str(i)
-    elif i < 10:
-        suf = '0000' + str(i)
-    path = way + suf
-    os.mkdir(path)
-    i -=1
-
-print(j, ' directories created')
+# (2) Moving the files (2)
+for element in filelist:
+    box = element[0:9] + '/' + element
+    shutil.move(element, box)
+# (2) End of (2)
