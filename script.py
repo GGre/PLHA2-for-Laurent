@@ -1,5 +1,5 @@
 # Here is the script for PLHA2 for Laurent
-# Here are handled files PLHA#####.* which much be
+# Here are handled files PLHA#####.* which must be
 # moved to their directory PLHA#####
 # Files and directories are at the same level
 # i.e. directory before being handled.
