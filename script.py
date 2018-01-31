@@ -9,7 +9,7 @@ import shutil
 
 os.chdir("/home/ladmin/Téléchargements/PLHA")
 # Path to the superdirectory where files and
-# directories to handle with take place.
+# directories to handle take place.
 
 # (1) Making the list of files in the superdirectory (1)
 filelist = []
