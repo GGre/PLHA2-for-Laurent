@@ -7,4 +7,4 @@ These last ones may have been created with the script : PLHA-for-Laurent
 
 plha2.py to be used on Linux OS
 
-plha2Win.py to be used on Winodws OS
+plha2Win.py to be used on Windows OS
