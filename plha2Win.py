@@ -4,7 +4,7 @@
 # Here are handled files PLHA#####.* which must be
 # moved to their directory PLHA#####
 # Files PLHA#####.* and directories PLHA##### take
-# place at the same level # (i.e. superdirectory)
+# place at the same level (i.e. superdirectory)
 # before being handled.
 
 import os
