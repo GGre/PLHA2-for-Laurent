@@ -40,3 +40,14 @@ print('Final report (3 lines follow) :')
 print(k, ' file(s) examined.')
 print(k-j, ' file(s) relocated.')
 print(j, ' file(s) remained in place.')
+
+
+input("Press 'Entry key' to close this program...")
+# For linux use, cancel the eventual # at the beginning of the upper line
+# and put a # (if not yet) at the beginning of the following one.
+
+#os.system("pause")
+
+# For Windows use, cancel the eventual # at the beginning of the just upper
+# line and put a # (if not yet) at the beginning of the upper line beginning
+# with : input("Press 'Entry key' to ...")
