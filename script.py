@@ -1,7 +1,7 @@
 # Here is the script for PLHA2 for Laurent
 # Here are handled files PLHA#####.* which must be
 # moved to their directory PLHA#####
-# Files PLHA#####.* and directories PLHA##### take 
+# Files PLHA#####.* and directories PLHA##### take
 # place at the same level # (i.e. superdirectory)
 # before being handled.
 
@@ -25,7 +25,18 @@ except:
 # (1) End of (1)
 
 # (2) Moving the files (2)
+j, k = 0, len(filelist)
 for element in filelist:
     box = element[0:9] + '/' + element
-    shutil.move(element, box)
+    try:
+        shutil.move(element, box)
+    except:
+        j += 1
+        continue
 # (2) End of (2)
+
+# Final report :
+print('Final report (3 lines follow) :')
+print(k, ' file(s) examined.')
+print(k-j, ' file(s) relocated.')
+print(j, ' file(s) remained in place.')
