@@ -1,4 +1,4 @@
-# -*-coding:Latin-1 -*
+# -*-coding:utf-8 -*
 
 # Here is the script for PLHA2 for Laurent
 # Here are handled files PLHA#####.* which must be
