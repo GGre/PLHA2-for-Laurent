@@ -51,5 +51,5 @@ print(j, ' file(s) remained in place.')
 os.system("pause")
 
 # For Windows use, cancel the eventual # at the beginning of the just upper
-# line and put a # (if not yet) at the beginning of the upper line beginning
+# line (beginning with os.system) and put a # (if not yet) at the beginning of the upper line beginning
 # with : input("Press 'Entry key' to ...")
