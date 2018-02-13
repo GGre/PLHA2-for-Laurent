@@ -10,7 +10,7 @@
 import os
 import shutil
 
-os.chdir("/home/ladmin/Téléchargements/PLHA")
+os.chdir("path\to\the\right\superdirectory")
 # Path to the superdirectory where files and
 # directories to handle take place.
 
