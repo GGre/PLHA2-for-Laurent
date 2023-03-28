@@ -29,7 +29,7 @@ except:
 # (2) Moving the files (2)
 j, k = 0, len(filelist)
 for element in filelist:
-    box = element[0:9] + '/' + element
+    box = element[0:9] + '/' + element # Attention : 9 est le nbr de digits du nom du dossier, par exemple pour : PHOTOS_HA_#####_ mettre 15 au lieu de 9
     try:
         shutil.move(element, box)
     except:
