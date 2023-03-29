@@ -26,7 +26,7 @@ except:
 
 # (2) Moving the files (2)
 cwd_name = os.getcwd().split("/")[-1]
-end_index = len(cwd_name)
+end_index = len(cwd_name) + 5
 j, k = 0, len(filelist)
 for element in filelist:
     box = element[0:end_index] + '/' + element
