@@ -27,9 +27,11 @@ except:
 # (1) End of (1)
 
 # (2) Moving the files (2)
+cwd_name = os.getcwd().split("\")[-1]
+end_index = len(cwd_name)
 j, k = 0, len(filelist)
 for element in filelist:
-    box = element[0:9] + '/' + element # Attention : 9 est le nbr de digits du nom du dossier, par exemple pour : PHOTOS_HA_#####_ mettre 15 au lieu de 9
+    box = element[0:end_index] + '/' + element
     try:
         shutil.move(element, box)
     except:
